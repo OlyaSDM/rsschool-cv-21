@@ -1,11 +1,13 @@
-.logo{
-    font-size: 23px;
-    font-weight: 800;
-}
+
 
 
 
 .main_page {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.header_name {
+    width: 100%;
+    display: flex;
 }

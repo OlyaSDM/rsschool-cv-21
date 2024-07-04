@@ -414,6 +414,13 @@ a {
 	width: 160px;
 }
 
+.year {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--color);
+}
+
 .code {
 	display: flex;
 	justify-content: center;

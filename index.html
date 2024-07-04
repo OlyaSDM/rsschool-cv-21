@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Olya S.</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="main-page">
@@ -17,21 +17,24 @@
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
           </ul>
         </div>
         <nav class="navbar">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </header>
-      <section class="about-me">
-        <img class="photo" src="images/photo.png" alt="photo" />
+      <section>
+        <div class="about-me" id="about">
+        <img class="photo" src="images/photo.png" alt="photo">
         <div class="text-about-me">
-          <p class="text-about">Hello!</p>
+          <h2 class="text-about">Hello!</h2>
           <p class="text-about-second">My name's</p>
           <p class="text-about-third">Olya Safronova</p>
           <p class="text-about-four">
@@ -44,9 +47,10 @@
             and beautiful websites and applications.
           </p>
         </div>
+      </div>
       </section>
       <section>
-        <div class="skills">
+        <div class="skills" id="skills">
           <h1 class="h1-skills">My skills</h1>
           <div class="skills-all">
             <div class="skills-dev">
@@ -67,7 +71,7 @@
                 </ul>
               </div>
             </div>
-            <div class="skills-dev">
+            <div class="skills-dev top">
               <p class="name">Web Design</p>
               <div class="dev-row">
                 <ul class="developer">
@@ -118,6 +122,9 @@
                   Online school «CanSheCode», 2022-2023
                 </p>
               </div>
+              <div class="first-education">
+                <h3>English - B2</h3>
+              </div>
             </div>
             <div class="education-column">
               <h1 class="h1-education">Experience</h1>
@@ -146,20 +153,20 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="skills">
+      <section class="portfolio">
+        <div class="skills" id="portfolio">
           <h1 class="h1-skills">Portfolio</h1>
           <div class="cards">
             <figure class="card" data-aos="fade-up">
               <a href="https://visainusa.com/" target="_blank"
                 ><img class="img" src="images/1.png" alt="img"
-              /></a>
+              ></a>
               <h2 class="name-prodgect">SITE OF THE COMPANY</h2>
             </figure>
             <figure class="card" data-aos="fade-up">
               <a href="https://mobile-app-weather.glitch.me" target="_blank"
                 ><img class="img" src="images/2.png" alt="img"
-              /></a>
+              ></a>
               <h2 class="name-prodgect">The weather now</h2>
             </figure>
           </div>
@@ -171,7 +178,7 @@
               <figure class="card" data-aos="fade-up">
                 <a href="https://christmas-start.glitch.me" target="_blank"
                   ><img class="img" src="images/3.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">COUNTDOWN TO CHRISTMAS</h2>
               </figure>
               <figure class="card" data-aos="fade-up">
@@ -179,7 +186,7 @@
                   href="https://bill-for-sushi-by-olya-safronova.glitch.me/"
                   target="_blank"
                   ><img class="img" src="images/4.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Split a bill app</h2>
               </figure>
             </div>
@@ -189,13 +196,13 @@
                   href="https://burger-cheddar-by-olya-safronova.glitch.me/"
                   target="_blank"
                   ><img class="img" src="images/5.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Burger website</h2>
               </figure>
               <figure class="card" data-aos="fade-up">
                 <a href="https://site-recipes.glitch.me" target="_blank"
                   ><img class="img" src="images/6.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Search recipes</h2>
               </figure>
             </div>
@@ -205,7 +212,7 @@
                   href="https://kitchen-timer-by-olya-safronova.glitch.me/"
                   target="_blank"
                   ><img class="img" src="images/7.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Timer</h2>
               </figure>
               <figure class="card" data-aos="fade-up">
@@ -213,7 +220,7 @@
                   href="https://my-shopping-list---by-olya-safronova.glitch.me"
                   target="_blank"
                   ><img class="img" src="images/8.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Shopping list</h2>
               </figure>
             </div>
@@ -221,7 +228,7 @@
               <figure class="card" data-aos="fade-up">
                 <a href="https://webgame-numbers.glitch.me" target="_blank"
                   ><img class="img" src="images/9.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Webgame "Numbers</h2>
               </figure>
               <figure class="card" data-aos="fade-up">
@@ -229,35 +236,59 @@
                   href="https://bath-complecs-hogshead.glitch.me"
                   target="_blank"
                   ><img class="img" src="images/10.png" alt="img"
-                /></a>
+                ></a>
                 <h2 class="name-prodgect">Bath complecs</h2>
               </figure>
             </div>
           </div>
         </div>
       </section>
+      <section>
+        <div class="skills">
+          <h1 class="h1-skills">Code Example</h1>
+          <pre class="code">
+<code>
+  const t = Promise((resolve) => {
+    resolve("");
+  });
+
+  t.then(() => {
+    t.then(() => console.log("B"));
+  });
+
+  console.log("D");
+
+  t.then(() => console.log("C"));
+</code>
+</pre>
+        </div>
+      </section>
       <footer>
-        <div class="contacts">
+        <div class="contacts" id="contacts">
           <a href="https://github.com/Olya2125?tab=repositories" target="_blank"
             ><img class="icon" src="images/github.png" alt="github"
-          /></a>
-          <a href="https://github.com/Olya2125?tab=repositories" target="_blank"
+        ></a>
+          <a href="mailto:olyasafronova2125@gmail.com" target="_blank"
             ><img class="icon" src="images/gmail.png" alt="gmail"
-          /></a>
-          <a href="https://github.com/Olya2125?tab=repositories" target="_blank"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/olya-safronova-42b560190/"
+            target="_blank"
             ><img class="icon" src="images/linkedin.png" alt="linkedin"
-          /></a>
-          <a href="https://github.com/Olya2125?tab=repositories" target="_blank"
+          ></a>
+          <a href="tg://resolve?domain=Olya2125" target="_blank"
             ><img class="icon" src="images/telegram.png" alt="telegram"
-          /></a>
+          ></a>
         </div>
         <div class="logo-rs">
-        <a href="https://rs.school/courses/javascript-ru" target="_blank"
+          <a href="https://rs.school/courses/javascript-ru" target="_blank"
             ><img class="icon-rs" src="images/rs_school_js.png" alt="github"
-          /></a>
+          ></a>
         </div>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
   </body>

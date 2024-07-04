@@ -380,9 +380,23 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 80px;
+    padding: 40px;
+    border-top: 4px solid var(--color);
 }
 
 .icon {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+}
+
+.logo-rs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon-rs {
+    width: 160px;
 }

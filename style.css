@@ -173,15 +173,13 @@ a {
 
 .about-me {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 200px;
-    max-width: 1440px;
 }
 
 .photo {
-    margin-right: 940px;
-    width: 280px;
+    width: 300px;
     height: 350px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 12px;
@@ -190,12 +188,10 @@ a {
 .text-about-second,
 .text-about-third,
 .text-about-five {
-    margin-left: -780px;
     margin-top: -24px;
 }
 
 .text-about {
-    margin-left: -780px;
     font-size: 32px;
     font-weight: 800;
     color: var(--color);
@@ -212,7 +208,6 @@ a {
 }
 
 .text-about-four {
-    margin-left: -780px;
     margin-top: -44px;
     font-weight: 800;
     font-size: 24px;

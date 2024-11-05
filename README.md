@@ -1,4 +1,4 @@
 # rsschool-cv
-https://OlyaSDM.github.io/rsschool-cv/cv
+https://OlyaSDM.github.io/rsschool-cv-21/cv
 
-https://OlyaSDM.github.io/rsschool-cv/
+https://OlyaSDM.github.io/rsschool-cv-21/
